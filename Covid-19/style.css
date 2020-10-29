@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+
+h1 {
+font-weight: 400;
+line-height: 1.2;
+}
+
+p {
+font-size: 1.125rem;
+}
+
+h1,
+p {
+margin-top: 0;
+margin-bottom: 0.5rem;
+}
+
+label {
+display: flex;
+align-items: center;
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+
+button {
+border: none;
+}
+
+.container {
+width: 100%;
+margin: 3.125rem auto 0 auto;
+max-width: 540px;
+}
+
+}
+.container {
+  max-width: 720px;
+}
+.header {
+padding: 0 0.625rem;
+margin-bottom: 1.875rem;
+}
+
+.description {
+font-style: italic;
+font-weight: 200;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+margin-left: 0.25rem;
+font-size: 0.9rem;
+color: #e4e4e4;
+}
+
+.text-center {
+text-align: center;
+}
+
+/* form */
+
+form {
+background: var(--color-burntorange-alpha);
+padding: 2rem 5rem;
+border-radius: 0.25rem;
+
+}
+
+.form-group {
+margin: 0 auto 1.25rem auto;
+padding: 0.25rem;
+}
+
+.form-control {
+display: block;
+width: 100%;
+height: 2.375rem;
+padding: 0.375rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+border-color: #80bdff;
+outline: 0;
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+margin-right: 0.625rem;
+min-height: 1.25rem;
+min-width: 1.25rem;
+}
+
+.input-textarea {
+min-height: 120px;
+width: 100%;
+padding: 0.625rem;
+resize: vertical;
+}
+
+.submit-button {
+display: block;
+width: 100%;
+padding: 0.75rem;
+background: var(--color-green);
+color: inherit;
+border-radius: 2px;
+cursor: pointer;
+}
+#Tokyo{
+  background-image: url('foot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #B3B6B7 ;
+}
+
+.title {
+  margin: 20px;
+  font-weight: 600;
+  font-size: 35px;
+  color: #a3a3a3;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  transition: 0.8s;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0);
+    transition: 0.8s;
+    
+}
+
+.header .card .stats {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.number {
+  font-size: 35px;
+  font-weight: 600;
+}
+.factor {
+  color: #a3a3a3;
+}
+
+.flags {
+  max-width: 6000px;
+  background: #fff;
+  display: block;
+  margin: 20px;
+  text-align: center;
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0);
+  padding-bottom: 20px;
+}
+
+.flags img {
+  margin: 20px;
+}
+
+.flag {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.flag div {
+  display: block;
+  font-size: 10px;
+  width: 92px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active {
+  box-shadow: 2px 3px 5px 0px black;
+}
+
+@media screen and (max-width: 1020px) {
+.card {
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  transition: 0.8s;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+    inset 7px 7px 15px rgba(55, 84, 170, 0),
+    inset -7px -7px 20px rgba(255, 255, 255, 0),
+    0px 0px 4px rgba(255, 255, 255, 0);
+    transition: 0.8s;
+}
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer-love-icon {
+  height: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  animation: beat .55s infinite alternate;
+}
+@keyframes beat{
+  to { transform: scale(1.4); }
+}
+
+#total {
+  border-bottom: 5px solid #d63031;
+}
+
+#recover {
+  border-bottom: 5px solid #00b894;
+}
+
+#sick {
+  border-bottom: 5px solid #0984e3; 
+}
+
+#dead {
+  border-bottom: 5px solid red;  
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+#countries-list {
+  max-height: 700px;
+  overflow-y: auto;
+}
+#countries-list .list-group-item:first-letter {
+  text-transform: uppercase;
+}
+#country-statistics dt {
+  float: left;
+  margin-right: 15px;
+}
+#country-statistics dt::after {
+  content: ':';
+}
+#country-statistics canvas {
+  margin-bottom: 15px;
+}
+#country-statistics #controls input[type="checkbox"] {
+  vertical-align: top;
+}
+#country-statistics #controls label {
+  font-weight: normal;
+}
+#country-statistics #controls label:not(:first-child) {
+  margin-left: 15px;
+}
+
+#Paris{
+  background-color:#283747 ;
+}
+
+.container{
+  width: 1000%;
+}
+.inputBox{
+  width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.inputBox input{
+  width: 300px;
+  height: 30px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+.inputBox button{
+  width: 90px;
+  height: 34px;
+  background: rgb(65, 144, 255);
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+}
+.data{
+  width: 800px;
+  margin: 0 auto;
+}
+.box .head {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.box .head span{
+  font-size: 2rem;
+}
+.total{
+  display: flex;
+  width: 800px;
+  height: 200px;
+  justify-content: space-between;
+}
+.total div{
+  margin-top: 20px;
+  width: 30%;
+  height: 200px;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(137, 137, 137);
+  color: white;
+}
+.total div p{
+  margin: 50px 0 10px 0;
+}
+.total div:nth-child(1){
+  background: #41a7ff;
+}
+.total div:nth-child(2){
+  background: #ff3434;
+}
+.total div:nth-child(3){
+  background: #32b336;
+}
+
+
+.new{
+  margin-top: 60px;
+  display: flex;
+  width: 800px;
+  height: 200px;
+  justify-content: space-between;
+}
+.new div{
+  width: 30%;
+  height: 200px;
+  background-color: rgb(65, 144, 255);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+} 
+.new div p{
+  margin: 50px 0 10px 0;
+}
+.new div:nth-child(1){
+  background: #d83f3f;
+}
+.new div:nth-child(2){
+  background: #ff0053;
+}
+.new div:nth-child(3){
+  background: #ffa501;
+}
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#paragraph-style{
+  /*style="text-align:center;"*/
+  position: relative;
+  text-align: left;
+  /*left: -460px; 
+  top: -30px;*/
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#mainheadline {
+  margin: 50px 0;
+  text-align: left;
+  text-decoration: underline;
+}
+
+ul {
+  max-width: 550px;
+  /*margin: 0 auto 50px auto;*/
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: none;
+  padding: 0;
+}
+
+ol {
+  type = "a";
+  max-width: 550px;
+  /*margin: 0 auto 50px auto;*/
+  text-align: left;
+  line-height: 1.6;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+.w3-container{
+  text-align: center;
+  font-weight: bolder;
+  background-color:#A6ACAF  ;
+}
